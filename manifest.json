@@ -1,0 +1,20 @@
+{
+   "name": "Internal Link",
+   "description": "Internal Link Generator by Supple",
+   "author": {
+     "name": "Bishal",
+     "url": "https://bishal.com.au"
+   },
+   "icon": {
+     "url": "https://bishal.com.au/trello/powerups/logo-24x24.png",
+     "url@2x": "https://bishal.com.au/trello/powerups/logo-48x48.png"
+   },
+   "capabilities": {
+    "card-buttons": [
+      {
+        "text": "Internal Linking",
+        "callback": "sendToGoogleSheets"
+      }
+    ]
+  }
+}
